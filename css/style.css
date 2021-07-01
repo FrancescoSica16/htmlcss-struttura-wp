@@ -16,6 +16,12 @@ footer{
     height: 85px;
     background-color: indianred;
 }
+
+.container{
+    width: 75%;
+    margin: auto;
+}
+
 .clearfix::after{
     content: "";
     display: table;
@@ -34,7 +40,6 @@ footer{
 }
 
 .middle-column{
-    /* width: 40%; */
     height: 400px;
     background-color: rebeccapurple;
     margin: 0 25px;
